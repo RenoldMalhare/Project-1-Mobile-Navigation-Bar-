@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    font-family: "Open-sans" , sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 100;
+}
+
+.mobile{
+    border: 3px solid #eee;
+    height: 600px;
+    width: 340px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+nav .contentlist {
+    background-color: #fff;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+}
+
+nav .list {
+    color: #6461a2;
+    cursor: pointer;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+nav .contentlist .list p {
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+nav .contentlist .list :hover,
+nav .contentlist .list :active  {
+    color: black;
+}
