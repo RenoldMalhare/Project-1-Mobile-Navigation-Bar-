@@ -51,7 +51,9 @@ nav .contentlist .list p {
     margin: 2px 0;
 }
 
-nav .contentlist .list :hover,
-nav .contentlist .list :active  {
+nav .list:hover,
+nav .list:active  {
     color: black;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
